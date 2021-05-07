@@ -34,7 +34,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 - [x] Structure of project by react
 - [x] Manage routes
-- [ ] UI by material-ui
+- [x] UI by material-ui
 - [ ] Home page
 - [ ] Calendar page
 - [ ] Login page
@@ -48,3 +48,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## References
 
 - https://reactjs.org/
+- https://material-ui.com/

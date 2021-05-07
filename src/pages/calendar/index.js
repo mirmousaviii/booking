@@ -1,6 +1,14 @@
+import React from 'react';
+import DefaultLayout from '../../layouts/default-layout';
+import Typography from '@material-ui/core/Typography';
+
 function CalendarPage() {
   return (
-      <div>calendar page</div>
+      <DefaultLayout>
+        <Typography variant="h5" gutterBottom>
+          calendar page
+        </Typography>
+      </DefaultLayout>
   );
 }
 
