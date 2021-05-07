@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import DefaultLayout from '../../layouts/default-layout';
 import Typography from '@material-ui/core/Typography';
-import {List, ListItem} from '@material-ui/core';
+import {Button, List, ListItem} from '@material-ui/core';
 
 function HomePage() {
   return (
@@ -25,8 +25,20 @@ function HomePage() {
           Pages:
         </Typography>
         <List>
-          <ListItem><Link to="/">Home page</Link></ListItem>
-          <ListItem><Link to="/calendar">Calendar page</Link></ListItem>
+          <ListItem>
+            <Button
+                color="primary"
+                aria-label="Calendar"
+                component={Link}
+                to="/">Home page</Button>
+          </ListItem>
+          <ListItem>
+            <Button
+                color="primary"
+                aria-label="Calendar"
+                component={Link}
+                to="/calendar">Calendar page</Button>
+          </ListItem>
         </List>
       </DefaultLayout>
   );
