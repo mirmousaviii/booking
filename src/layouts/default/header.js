@@ -2,6 +2,8 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import Toolbar from '@material-ui/core/Toolbar';
 import {AppBar, Box} from '@material-ui/core';
+import {EventNoteRounded} from '@material-ui/icons';
+
 /**
  * Header of default layout
  * @return {JSX.Element}
@@ -11,9 +13,10 @@ function Header() {
   return (
       <AppBar position="static">
         <Toolbar>
+          <EventNoteRounded/>
           <Box flexGrow={1}>
             <Typography variant="h5" component="h1" color="inherit">
-              Simple Booking
+              ‌ Simple Booking
             </Typography>
           </Box>
           {/* TODO: Add Login/Logout*/}
@@ -30,8 +33,7 @@ function Header() {
           }*/}
         </Toolbar>
       </AppBar>
-  )
-      ;
+  );
 }
 
 export default Header;

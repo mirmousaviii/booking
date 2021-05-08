@@ -1,5 +1,5 @@
 import HomePage from '../pages/home';
-import CalendarPage from '../pages/calendar';
+import BookingPage from '../pages/booking';
 
 // TODO: Use private route for calendar page
 
@@ -13,8 +13,8 @@ export const paths = [
   },
   {
     key: 2,
-    path: '/calendar',
-    component: CalendarPage,
+    path: '/booking',
+    component: BookingPage,
     exact: true,
     private: false,
   },

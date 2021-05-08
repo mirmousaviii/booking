@@ -1,8 +1,8 @@
 import React from 'react';
-import DefaultLayout from '../../layouts/default-layout';
+import DefaultLayout from '../../layouts/default';
 import Typography from '@material-ui/core/Typography';
 
-function CalendarPage() {
+function BookingPage() {
   return (
       <DefaultLayout>
         <Typography variant="h5" gutterBottom>
@@ -12,4 +12,4 @@ function CalendarPage() {
   );
 }
 
-export default CalendarPage;
+export default BookingPage;

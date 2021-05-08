@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import DefaultLayout from '../../layouts/default-layout';
+import DefaultLayout from '../../layouts/default';
 import Typography from '@material-ui/core/Typography';
 import {Button, List, ListItem} from '@material-ui/core';
 
@@ -37,7 +37,7 @@ function HomePage() {
                 color="primary"
                 aria-label="Calendar"
                 component={Link}
-                to="/calendar">Calendar page</Button>
+                to="/booking">Booking page</Button>
           </ListItem>
         </List>
       </DefaultLayout>
