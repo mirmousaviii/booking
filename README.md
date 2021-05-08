@@ -2,9 +2,10 @@
 
 A simple booking
 
-## Available Scripts
+## How to use:
 
 In the project directory, you can run:
+You can set **base url** in .env file and run:
 
 ### `yarn start`
 
@@ -30,13 +31,13 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## TODO
+## TODO:
 
 - [x] Structure of project by react
 - [x] Manage routes
 - [x] UI by material-ui
-- [ ] Home page
-- [ ] Calendar page
+- [x] Home page
+- [ ] Booking page
 - [ ] Login page
 - [ ] State manager by Redux
 - [ ] Redux middleware by Redux Thunk
@@ -45,7 +46,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [ ] E2E test by Cypress
 
 
-## References
+## References:
 
 - https://reactjs.org/
 - https://material-ui.com/
