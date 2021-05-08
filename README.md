@@ -4,8 +4,8 @@ A simple booking
 
 ## How to use:
 
-In the project directory, you can run:
-You can set **base url** in .env file and run:
+You must rename `.env.sample` to `.env` then set **base url** in the file\
+_* The .env file is existed in the version for run easily ;-)_ 
 
 ### `yarn start`
 
