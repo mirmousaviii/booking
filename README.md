@@ -31,13 +31,13 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
-## TODO:
+## TODO Front-end:
 
 - [x] Structure of project by react
 - [x] Manage routes
 - [x] UI by material-ui
 - [x] Home page
-- [ ] Booking page
+- [x] Booking page
 - [ ] Login page
 - [ ] State manager by Redux
 - [ ] Redux middleware by Redux Thunk
@@ -45,6 +45,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [ ] Unit test by Jest
 - [ ] E2E test by Cypress
 
+
+## TODO Back-end:
+Aad a post method for add new time slot to allocated list:
+**POST** _https://private-37dacc-cfcalendar.apiary-mock.com/mentors/1/agenda_
+- Method: `POST`
+- URL: `{BASE_URL}/mentors/{MENTOR_ID}/agenda`
+- Data: `{start: newSlotTime, reason: newSlotReason}`
+- Response code: `201`
 
 ## References:
 
