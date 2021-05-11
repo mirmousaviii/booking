@@ -20,7 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test:unit": "react-scripts test",
+    "test:e2e": "$(npm bin)/cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "cypress": "^7.3.0",
     "msw": "^0.28.2"
   }
 }

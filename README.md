@@ -15,10 +15,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn test:unit`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+
+### `yarn test:e2e`
+
+Launches the end 2 end test.\
+See the section about [running tests](https://docs.cypress.io/) for more information.
+
 
 ### `yarn build`
 
@@ -58,3 +65,5 @@ Aad a post method for add new time slot to allocated list:
 
 - https://reactjs.org/
 - https://material-ui.com/
+- http://jquense.github.io/react-big-calendar/examples/index.html
+- https://www.cypress.io/

@@ -34,6 +34,7 @@ function HomePage() {
           </ListItem>
           <ListItem>
             <Button
+                id="booking-link"
                 color="primary"
                 aria-label="Calendar"
                 component={Link}
