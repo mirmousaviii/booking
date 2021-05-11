@@ -49,8 +49,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - [ ] State manager by Redux
 - [ ] Redux middleware by Redux Thunk
 - [ ] Document by Storybook
-- [ ] Unit test by Jest
-- [ ] E2E test by Cypress
+- [x] Unit test by Jest
+- [x] E2E test by Cypress
 
 
 ## TODO Back-end:
